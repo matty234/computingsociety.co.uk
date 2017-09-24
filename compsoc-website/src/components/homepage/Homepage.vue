@@ -9,13 +9,15 @@
       <br />
       <br />
       <br />
+      <br />
+      <br />
       <div class="row">
         <div class="col">
           <img src="./rhsuwhite.png">
         </div>
       </div>
     </b-jumbotron>
-    <b-jumbotron fluid>
+    <b-jumbotron fluid class="nopadding">
       <div class="row">
         <div class="col">
           <h3>OUR HISTORY</h3>
@@ -23,6 +25,8 @@
           </p>
         </div>
       </div>
+    </b-jumbotron>
+    <b-jumbotron fluid class="nopadding">
       <div class="row">
         <div class="col">
           <h3>AIMS</h3>
@@ -36,6 +40,8 @@
           </p>
         </div>
       </div>
+    </b-jumbotron>
+    <b-jumbotron fluid class="nopadding">
       <div class="row">
         <div class="col">
           <h3>ACHIEVEMENTS</h3>
@@ -87,16 +93,24 @@
         </div>
       </div>
     </b-jumbotron>
-    <b-jumbotron fluid class="darkbg">
+    <b-jumbotron fluid class="darkbg vercenter">
       <div class="row">
-        <img src="./fbicon.png" class="icon">
-        <img src="./twittericon.png" class="icon">
-        <img src="./liicon.png" class="icon">
-        <img src="./rhullogo.jpg" class="icon right">
+        <a href="https://www.facebook.com/groups/rhul.computingsociety/">
+          <img src="./fbicon.png" class="icon">
+        </a>
+        <a href="https://uk.linkedin.com/in/rhul-computing-society-2a85b5147">
+          <img src="./liicon.png" class="icon">
+        </a>
+        <a href="https://twitter.com/rhulcompsoc?lang=en">
+          <img src="./twittericon.png" class="icon">
+        </a>
+        <a href="https://www.royalholloway.ac.uk/home.aspx">
+          <img src="./rhullogo.jpg" class="icon right">
+        </a>
       </div>
       <div class="row">
         <div class="col">
-          <p class="white">Registered Charity 1141998</p>
+          <small class="white">Registered Charity 1141998</small>
         </div>
       </div>
     </b-jumbotron>
@@ -104,6 +118,15 @@
 </template>
 
 <style>
+.nopadding {
+  padding-bottom: 0px;
+}
+
+.vercenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .right {
   position: absolute;
@@ -132,7 +155,7 @@
 }
 
 .jumbotron {
-  margin-bottom: 0px
+  margin-bottom: 0px;
 }
 
 .logo {
@@ -147,7 +170,7 @@
   left: inherit;
 }
 
-.fullscreen img {
+.fullscreen {
   width: 100%;
   background-size: cover;
   background-position: center;
