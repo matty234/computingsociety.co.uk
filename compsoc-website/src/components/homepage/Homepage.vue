@@ -2,8 +2,10 @@
   <div>
     <b-jumbotron fluid class="darkbg">
       <img src="./csinverted.png" class="logo fullscreen">
-      <h1 class="white pb-5">Code. Play. Connect.</h1>
-      <br />
+      <h1 class="white pb-2">Code. Play. Connect.</h1>
+      <div>
+        <img src="./downarrow.png" class="smallarrow">
+      </div>
       <br />
       <br />
       <br />
@@ -118,6 +120,10 @@
 </template>
 
 <style>
+.smallarrow {
+  width: 50px;
+}
+
 .nopadding {
   padding-bottom: 0px;
 }
