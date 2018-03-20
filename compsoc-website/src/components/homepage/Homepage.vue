@@ -43,6 +43,64 @@
         </div>
       </div>
     </b-jumbotron>
+
+    <b-jumbotron fluid class="nopadding">
+      <div class="row">
+        <div class="col">
+          <h3>OUR COMMITTEE</h3>
+        </div>
+      </div>
+      <div class="row">
+        <b-btn v-b-toggle.collapseE variant="secondary">2017/18</b-btn>
+        <b-collapse visible id="collapseE" class="full-width">
+          <b-card>
+            <h4>2017/18</h4>
+            <p>President - Dom Hall</p>
+            <p>Vice President - Luke Johnston</p>
+            <p>Treasurer - Chris Melville</p>
+            <p>Communications Officer - Al Clarke</p>
+            <p>Careers Officer - Matt Brown</p>
+            <p>Women's Ambassador - Dulcie Jackson</p>
+            <p>Competitions Officer - Hugh Wells</p>
+            <p>Secretary - Kal Chokanov</p>
+          </b-card>
+        </b-collapse>
+      </div>
+      <div class="row">
+        <b-btn v-b-toggle.collapseD variant="secondary">2016/17</b-btn>
+        <b-collapse id="collapseD" class="full-width">
+          <b-card>
+            <h4>2016/17</h4>
+          </b-card>
+        </b-collapse>
+      </div>
+      <div class="row">
+        <b-btn v-b-toggle.collapseC variant="secondary">2015/16</b-btn>
+        <b-collapse id="collapseC" class="full-width">
+          <b-card>
+            <h4>2015/16</h4>
+          </b-card>
+        </b-collapse>
+      </div>
+      <div class="row">
+        <b-btn v-b-toggle.collapseB variant="secondary">2014/15</b-btn>
+        <b-collapse id="collapseB" class="full-width">
+          <b-card>
+            <h4>2014/15</h4>
+          </b-card>
+        </b-collapse>
+      </div>
+      <div class="row">
+        <b-btn v-b-toggle.collapseA variant="secondary">2013/14</b-btn>
+        <b-collapse id="collapseA" class="full-width">
+          <b-card>
+            <h4>2013/14</h4>
+          </b-card>
+        </b-collapse>
+      </div>
+
+    </b-jumbotron>
+
     <b-jumbotron fluid class="nopadding">
       <div class="row">
         <div class="col">
