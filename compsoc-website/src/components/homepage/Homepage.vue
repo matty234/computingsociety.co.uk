@@ -128,6 +128,11 @@
       </div>
       <div class="row">
         <div class="col">
+          <p class="white">ComputingSociety@su.rhul.ac.uk</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
           <small class="white">Registered Charity 1141998</small>
         </div>
       </div>
@@ -200,7 +205,7 @@
 }
 
 .full-width {
-  width: 80%
+  width: 85%
 }
 
 html,body{height:100%;}
