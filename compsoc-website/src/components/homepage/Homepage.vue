@@ -50,50 +50,66 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-4">
-          <h4>2013/14</h4>
-          <p>Crest Awards – Jingwei Emil Tan, Christian Jank</p>
-          <p>Society of the Year (Nominated)</p>
-          <p>Best Academic Society (Nominated)</p>
-          <p>Best New Society (Nominated)</p>
-        </div>
-        <div class="col-4">
-          <h4>2014/15</h4>
-          <p>
-            Department of the Year
-          </p>
-          <p>
-            Society of the Year
-          </p>
-          <p>
-            Skills and Employability Cup
-          </p>
-          <p>
-            Runnymede Volunteer Award (Community Action’s
-            Volunteering Group of the Year)
-          </p>
-          <p>
-            Crest Award – Filippo Di Paola
-          </p>
-          <p>
-            Freshman of the Year Award – Remi Jahau
-          </p>
-          <p>
-            Runnymede Volunteer Award (Individual Award) – Feargus Pendlebury
-          </p>
-          <p>
-            Best Academic Society (Nominated)
-          </p>
-          <p>
-            RAG Event of the Year (Nominated)
-          </p>
-        </div>
-        <div class="col-4">
-          <h4>2015/16</h4>
-          <p>Freshman of the Year Award – Omoyeme Akhigbe
-          </p>
-        </div>
+        <b-btn v-b-toggle.collapse4 variant="secondary">2017/18</b-btn>
+        <b-collapse visible id="collapse4" class="full-width">
+          <b-card>
+            <h4>2017/18</h4>
+            <p>Event of the Year Award - Royal Hackaway</p>
+            <p>Society Crest Award - Dulcie Jackson</p>
+            <p>Freshman of the Year Award - Hugh Wells</p>
+          </b-card>
+        </b-collapse>
       </div>
+      <div class="row">
+        <b-btn v-b-toggle.collapse3 variant="secondary">2015/16</b-btn>
+        <b-collapse id="collapse3" class="full-width">
+          <b-card>
+            <h4>2015/16</h4>
+            <p>Freshman of the Year Award – Omoyeme Akhigbe
+            </p>
+          </b-card>
+        </b-collapse>
+      </div>
+      <div class="row">
+        <b-btn v-b-toggle.collapse2 variant="secondary">2014/15</b-btn>
+        <b-collapse id="collapse2" class="full-width">
+          <b-card>
+            <h4>2014/15</h4>
+            <p>
+              Department of the Year
+            </p>
+            <p>
+              Society of the Year
+            </p>
+            <p>
+              Skills and Employability Cup
+            </p>
+            <p>
+              Runnymede Volunteer Award (Community Action’s
+              Volunteering Group of the Year)
+            </p>
+            <p>
+              Crest Award – Filippo Di Paola
+            </p>
+            <p>
+              Freshman of the Year Award – Remi Jahau
+            </p>
+            <p>
+              Runnymede Volunteer Award (Individual Award) – Feargus Pendlebury
+            </p>
+          </b-card>
+        </b-collapse>
+      </div>
+      <div class="row">
+        <b-btn v-b-toggle.collapse1 variant="secondary">2013/14</b-btn>
+        <b-collapse id="collapse1" class="full-width">
+          <b-card>
+            <h4>2013/14</h4>
+            <p>Society Crest Award – Jingwei Emil Tan, Christian Jank</p>
+          </b-card>
+        </b-collapse>
+      </div>
+
     </b-jumbotron>
     <b-jumbotron fluid class="darkbg vercenter">
       <div class="row">
@@ -181,6 +197,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.full-width {
+  width: 80%
 }
 
 html,body{height:100%;}
