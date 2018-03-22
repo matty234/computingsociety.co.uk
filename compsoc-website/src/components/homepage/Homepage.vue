@@ -63,6 +63,7 @@
             <p>Women's Ambassador - Dulcie Jackson</p>
             <p>Competitions Officer - Hugh Wells</p>
             <p>Secretary - Kal Chokanov</p>
+            <p>First Year Representative - Benzi Moonegan</p>
           </b-card>
         </b-collapse>
       </div>
@@ -71,6 +72,14 @@
         <b-collapse id="collapseD" class="full-width">
           <b-card>
             <h4>2016/17</h4>
+            <p>President - Ommy Akhigbe</p>
+            <p>Vice President - James Green</p>
+            <p>Treasurer - Jamie Woods</p>
+            <p>Communications Officer - Joe Rowell</p>
+            <p>Careers Officer - Chloe Houlihan</p>
+            <p>Women's Ambassador - Laura Hughes</p>
+            <p>Secretary - Maximillian Berkmann</p>
+            <p>First Year Representative - Freya Sheer-Hardwick</p>
           </b-card>
         </b-collapse>
       </div>
@@ -79,6 +88,13 @@
         <b-collapse id="collapseC" class="full-width">
           <b-card>
             <h4>2015/16</h4>
+            <p>President - Christopher Harris</p>
+            <p>Vice President - Ommy Akhigbe</p>
+            <p>Treasurer - Wilbur Fernandes</p>
+            <p>Communications Officer - William Webster</p>
+            <p>Careers Officer - Eivinas Zaicevicius</p>
+            <p>Women's Ambassador - Lauren Williams</p>
+            <p>Secretary - Chris Maddex</p>
           </b-card>
         </b-collapse>
       </div>
@@ -87,6 +103,13 @@
         <b-collapse id="collapseB" class="full-width">
           <b-card>
             <h4>2014/15</h4>
+            <p>President - Filippo Di Paola</p>
+            <p>Vice President - Remi Jahau</p>
+            <p>Treasurer - Kirin Ali</p>
+            <p>Communications Officer - Omar Rahman</p>
+            <p>Careers Officer - Robert Markiewicz</p>
+            <p>Women's Ambassador - Bernice Soutter</p>
+            <p>Secretary - Feargus Pendlebury</p>
           </b-card>
         </b-collapse>
       </div>
@@ -95,6 +118,22 @@
         <b-collapse id="collapseA" class="full-width">
           <b-card>
             <h4>2013/14</h4>
+            <p>President - Jingwei Emil Tan</p>
+            <p>Vice President -  James Black</p>
+            <p>Treasurer - Meng-yi Lee</p>
+            <p>Communications Officer - Slav Danchev</p>
+            <p>Secretary - Christian Jank</p>
+          </b-card>
+        </b-collapse>
+      </div>
+      <div class="row">
+        <b-btn v-b-toggle.collapse12 variant="secondary">2012/13</b-btn>
+        <b-collapse id="collapse12" class="full-width">
+          <b-card>
+            <h4>2012/13</h4>
+            <p>President - Jingwei Emil Tan</p>
+            <p>Treasurer - Meng-yi Lee</p>
+            <p>Secretary - Christian Jank</p>
           </b-card>
         </b-collapse>
       </div>
