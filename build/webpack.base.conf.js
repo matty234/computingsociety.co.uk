@@ -14,9 +14,9 @@ module.exports = {
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
-    publicPath: '/',
-    hotUpdateChunkFilename: 'hot/hot-update.js',
-    hotUpdateMainFilename: 'hot/hot-update.json'
+    publicPath: process.env.NODE_ENV === 'production'
+      ? config.build.assetsPublicPath
+      : config.dev.assetsPublicPath
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
