@@ -58,12 +58,12 @@
             <p>President - Dom Hall</p>
             <p>Vice President - Luke Johnston</p>
             <p>Treasurer - Chris Melville</p>
-            <p>Communications Officer - Al Clarke</p>
+            <p>Communications Officer - Alex Clarke</p>
             <p>Careers Officer - Matt Brown</p>
             <p>Women's Ambassador - Dulcie Jackson</p>
             <p>Competitions Officer - Hugh Wells</p>
             <p>Secretary - Kal Chokanov</p>
-            <p>First Year Representative - Benzi Moonegan</p>
+            <p>First Year Representative - Benzi Mooneegan</p>
           </b-card>
         </b-collapse>
       </div>
